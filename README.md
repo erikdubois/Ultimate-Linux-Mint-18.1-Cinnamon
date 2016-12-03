@@ -45,9 +45,8 @@ Aureola conky : https://github.com/erikdubois/Aureola
 This was the endresult after executing all the movies.
 
 
-![Screenshots](http://i.imgur.com/42Mzix2.jpg)
+![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
 
-![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
 
 
 Check out the movies by clicking here
@@ -134,11 +133,17 @@ Wait for the installation and reboot.
 
 #2 Software installation
 
-We start the installation script of all the needed software in the same way as above. 
+We start the installation scripts of all the needed software in the same way as above. 
 
-	- ./install-all-needed-software-at-once-latest.sh
+	- ./1-install-core-software-vx.sh
+    - ./2-install-extra-software-vx.sh
+    - ./3-install-themes-icons-cursors-plank.sh
 
 Do not forget to type "./" in front of the name.
+
+
+These three scripts will point to some of the other scripts in the folder. So keep them together.
+
 
 The best of them 
 
@@ -152,10 +157,11 @@ The best of them
 	Google Chrome
 	...
 
+There are other scripts for applications I sometimes need.
 
 
 
-#3 Extra's
+#3 Fun stuff
 
 
 1. Sardi Icon Theme
@@ -168,7 +174,7 @@ http://sourceforge.net/projects/sardi/
 For ease of installation I use the script
 
 
-	- icons-sardi-latest.sh
+	- icons-sardi-vx.sh
 
 
 
