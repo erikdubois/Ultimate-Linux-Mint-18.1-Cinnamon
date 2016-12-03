@@ -303,6 +303,9 @@ Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/them
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
+![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
+
+
 # F  A  Q
 --------------------
 
