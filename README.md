@@ -86,21 +86,20 @@ I never install this on my working computer. You have been warned.
 
 The very latest cinnamon version can be installed on your system.
 
-Run the script
+There is no script included for this. You will have to do it manually in the terminal.
 
-	- ./install-cinnamon-latest.sh
-
-The script will add a resource.
+The script will add a resource and upgrade cinnamon.
 
 	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
 	# sudo apt-get update 
 	# sudo apt-get install cinnamon -y
+    # sudo apt-get upgrade cinnamon -y
 
 
 
 <b>Nvidia</b>
 
-The last months I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
+The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
 HAVE NOT TESTED THIS FOR A WHILE
 
@@ -116,13 +115,17 @@ Try typing this in the terminal
 
 If for some reason you want other sources for your drivers then check out these two.
 
+1. https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+
 Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
 	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
 	# sudo apt-get update
 	# sudo apt-get install nvidia-340 -y (for example)
 
-Check on Nvidia.com which driver you should use.
+2. http://nvidia.com
+
+Check on Nvidia.com which driver you should use and install it from there.
 
 Wait for the installation and reboot.
 
