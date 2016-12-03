@@ -11,25 +11,22 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
+# 1. Add the Spotify repository signing key to be able to verify downloaded packages
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+# 2. Add the Spotify repository
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
-# Push the local files to github
+# 3. Update list of available packages
+sudo apt-get update
 
-git push -u origin master
+# 4. Install Spotify
+sudo apt-get install spotify-client
+
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################   spotify installed   ######################"
 echo "################################################################"

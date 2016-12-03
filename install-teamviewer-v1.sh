@@ -11,25 +11,18 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
+# Downloading and installing latest teamviewer
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+rm /tmp/teamviewer_i386.deb
 
-read input
+wget https://download.teamviewer.com/download/teamviewer_i386.deb -O /tmp/teamviewer_i386.deb
+sudo apt install -y libjpeg62:i386
+sudo dpkg -i /tmp/teamviewer_i386.deb
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+rm /tmp/teamviewer_i386.deb
 
-# Push the local files to github
-
-git push -u origin master
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "##############       teamviewer installed      #################"
 echo "################################################################"

@@ -110,8 +110,6 @@ sudo dpkg -i linux*
 
 rm linux-*
 
-echo "Kernel is installed"
-echo "Download files have been deleted"
 
 #ending
 #mkdir $HOME/Upload
@@ -123,6 +121,10 @@ echo "Download files have been deleted"
 #sudo apt-get -y autoclean
 
 
+echo "################################################################"
+echo "###############      Kernel is installed            ############"
+echo "###############     Files have been deleted         ############"
+echo "################################################################"
 
 
 

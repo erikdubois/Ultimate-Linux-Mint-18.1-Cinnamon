@@ -11,25 +11,17 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+# donwloading and installing google chrome for netflix e.g.
 
-read input
+rm /tmp/google-chrome-stable_current_amd64.deb
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+echo "downloading google chrome latest stable edition"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
+sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
 
-# Push the local files to github
-
-git push -u origin master
-
+rm /tmp/google-chrome-stable_current_amd64.deb
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    google chrome installed #################"
 echo "################################################################"

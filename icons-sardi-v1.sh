@@ -11,25 +11,22 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
+rm -rf /tmp/sardi
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-# Push the local files to github
+cp -rf /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
 
-git push -u origin master
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    icons sardi done   ######################"
 echo "################################################################"

@@ -11,25 +11,18 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
+# repo for spotify
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+sudo add-apt-repository -y ppa:dawidd0811/neofetch
 
-# Push the local files to github
+# getting new info of this new repo
+sudo apt-get -y update
 
-git push -u origin master
-
+# installing
+sudo apt install neofetch -y
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################   neofetch installed   #####################"
 echo "################################################################"

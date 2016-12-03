@@ -11,25 +11,14 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+# Downloading and installing latest variety
+sudo add-apt-repository ppa:peterlevi/ppa -y
+sudo apt-get update
+sudo apt-get install variety -y
 
-read input
-
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
-
-# Push the local files to github
-
-git push -u origin master
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    variety installed   #####################"
 echo "################################################################"

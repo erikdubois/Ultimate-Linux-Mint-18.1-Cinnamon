@@ -11,25 +11,16 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+# Latest builds of cinnamon and nemo
 
-read input
-
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
-
-# Push the local files to github
-
-git push -u origin master
+wget https://github.com/phw/peek/releases/download/v0.7.2/peek-0.7.2-Linux.deb
+sudo apt install libsdl1.2debian ffmpeg libavdevice-ffmpeg56 -y
+sudo apt-get -f install -y
+sudo dpkg -i peek-0.7.2-Linux.deb
+rm peek-0.7.2-Linux.deb
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    peek installed     ######################"
 echo "################################################################"

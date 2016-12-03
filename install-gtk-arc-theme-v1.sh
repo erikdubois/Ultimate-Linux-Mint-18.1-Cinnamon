@@ -11,25 +11,21 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
+#https://github.com/horst3180/arc-theme
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+rm -rf /tmp/arc-theme
 
-read input
+sudo apt-get install build-essential autoconf automake pkg-config libgtk-3.0 libgtk-3-dev -y
+git clone https://github.com/horst3180/arc-theme --depth 1 /tmp/arc-theme
+cd /tmp/arc-theme
+sh autogen.sh --prefix=/usr
+sudo make install
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+rm -rf /tmp/arc-theme
 
-# Push the local files to github
-
-git push -u origin master
+# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    arc theme installed #####################"
 echo "################################################################"

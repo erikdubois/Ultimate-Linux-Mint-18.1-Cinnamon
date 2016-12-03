@@ -11,25 +11,20 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
+rm -rf /tmp/Surfn
+git clone https://github.com/erikdubois/Surfn /tmp/Surfn
+find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-# Push the local files to github
+cp -rf /tmp/Surfn/* ~/.icons/
+rm -rf /tmp/Surfn
 
-git push -u origin master
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    icons surfn done   ######################"
 echo "################################################################"

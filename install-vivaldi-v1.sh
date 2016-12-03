@@ -11,25 +11,24 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+rm /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
 
-# Push the local files to github
+wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.4.589.41-1_amd64.deb -O /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
 
-git push -u origin master
+sudo dpkg -i /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
 
+
+
+rm /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
+
+
+##################################################################################################################
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################     vivaldi installed    ###################"
 echo "################################################################"
+
+

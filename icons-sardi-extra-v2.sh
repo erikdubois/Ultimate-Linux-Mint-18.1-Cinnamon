@@ -11,25 +11,22 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
 
-read input
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
+rm -rf /tmp/Sardi-Extra
+git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
+find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
 
-# Push the local files to github
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-git push -u origin master
+cp -r /tmp/Sardi-Extra/* ~/.icons/
+rm -rf /tmp/Sardi-Extra
+
+
 
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "###################    icons sardi extra done  #################"
 echo "################################################################"

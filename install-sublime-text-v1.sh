@@ -11,25 +11,18 @@
 #
 ##################################################################################################################
 
-# Below command will backup everything inside the project folder
-git add --all .
+rm /tmp/sublime-text_build-3126_amd64.deb
 
-# Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
+sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
 
-read input
+rm /tmp/sublime-text_build-3126_amd64.deb
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date +"%T %d-%m-%Y")
-git commit -m "Comment : $input on $curtime"
 
-# Push the local files to github
-
-git push -u origin master
-
+##################################################################################################################
 
 echo "################################################################"
-echo "###################    Git Push Done      ######################"
+echo "################      sublime text installed    ################"
 echo "################################################################"
+
+
