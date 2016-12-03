@@ -26,17 +26,19 @@ If everything is still working we can install the software and start customizing
 
 # Extra info on Youtube
 
-Content Playlist of 60+ short movies to make your desktop eye-candy
+Content Playlist of 100+ short movies to make your desktop eye-candy
 Sardi icon set playing its part therein.
 
-About 60 short movies to completely change your desktop experience for linux.
+https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
+
+About 100+ short movies to completely change your desktop experience for linux.
 Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
-Customisation : https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
+Customisation scritps : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
 
 Sardi icons: https://sourceforge.net/projects/sardi/files/
 
-Super Ultra Flat Numix Remix : https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+Surfn icons : https://github.com/erikdubois/Surfn
 
 Aureola conky : https://github.com/erikdubois/Aureola
 
@@ -50,7 +52,7 @@ This was the endresult after executing all the movies.
 
 Check out the movies by clicking here
 
-<a target="_blank" href="https://www.youtube.com/watch?v=mymzR-4hafQ&list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
 <img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
 </a> 
 
