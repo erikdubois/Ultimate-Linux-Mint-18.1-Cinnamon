@@ -17,21 +17,21 @@ Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will
 
 ![Screenshots](http://i.imgur.com/YO66kdK.png)
 
+##Download this github
 
-
-
-First upgrade kernel, nvidia and cinnamon/nemo.
-If everything is still working we can install the software and start customizing the system.
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
 
 # Extra info on Youtube
 
-Content Playlist of 100+ short movies to make your desktop eye-candy
+Content Playlist of 100+ short movies to make your desktop eye-cany.
 Sardi icon set playing its part therein.
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
 
 About 100+ short movies to completely change your desktop experience for linux.
+They are made on Linux Mint 18 and still apply on 18.1.
 Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
 Customisation scritps : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
@@ -59,27 +59,17 @@ Check out the movies by clicking here
 
 #1 Kernel, cinnamon and nvidia
 
-As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
+First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
 
-The first time I suggest you follow the steps in the article.
+If everything is still working we can install the software and start customizing the system.
+
+As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
 
 I have written a script to automate my installations. 
 
 <b>KERNEL</b>
 
-You have a choice. 
-
-	- kernel 3.x
-	- kernel 4.x
-
-I choose to install the latter.
-
-	- ./update-to-the-last-stable-4.x-latest.sh 
-
 Do not forget to type "./" in front of the name.
-
-You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
 Type in the terminal
 
