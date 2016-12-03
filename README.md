@@ -1,11 +1,16 @@
 # Ultimate Linux Mint 18.1 Serena Cinnamon
+
 Let us first take a screenshot of the initial look of Linux Mint 18.1 Serena Cinnamon
 
 ![Screenshots](http://i.imgur.com/Rt4ATgr.png)
 
-Update your system. Choose if you like to download from local servers or not.
+##Update your system.
 
-Ofcourse you can change the theme. I like the mint-y-dark theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
+Choose if you like to download from local servers or not.
+
+##Change the theme
+
+Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
 
     sudo apt install screenfetch
 
@@ -13,7 +18,7 @@ Ofcourse you can change the theme. I like the mint-y-dark theme which I will use
 ![Screenshots](http://i.imgur.com/YO66kdK.png)
 
 
-This is my way of working when installing a new operating system.
+
 
 First upgrade kernel, nvidia and cinnamon/nemo.
 If everything is still working we can install the software and start customizing the system.
