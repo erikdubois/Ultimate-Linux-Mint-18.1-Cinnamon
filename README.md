@@ -100,8 +100,6 @@ The script will add a resource and upgrade cinnamon.
 
 The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
-HAVE NOT TESTED THIS FOR A WHILE
-
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
 
 You can normally install nvidia drivers without any other source.
@@ -133,7 +131,7 @@ Wait for the installation and reboot.
 
 #2 Software installation
 
-We start the installation scripts of all the needed software in the same way as above. 
+We start the installation scripts of all the needed software via the terminal. 
 
 	- ./1-install-core-software-vx.sh
     - ./2-install-extra-software-vx.sh
@@ -157,7 +155,7 @@ The best of them
 	Google Chrome
 	...
 
-There are other scripts for applications I sometimes need.
+There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
 
@@ -177,11 +175,10 @@ For ease of installation I use the script
 	- icons-sardi-vx.sh
 
 
-Follow the collection on google+.
+Follow the collection on google+ : https://plus.google.com/u/0/collection/YFP-LB
 
 The most recent pictures can be found there.
 
-https://plus.google.com/u/0/collection/YFP-LB
 
 Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
@@ -288,7 +285,7 @@ and put in on top. I choose a transparent theme.
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
 
-Read more on plank e.ge. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
+Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
 
