@@ -115,7 +115,7 @@ Try typing this in the terminal
 
 If for some reason you want other sources for your drivers then check out these two.
 
-1. https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+* https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
 
 Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
@@ -123,7 +123,7 @@ Copy/paste these lines in a terminal to get the latest nvidia drivers.
 	# sudo apt-get update
 	# sudo apt-get install nvidia-340 -y (for example)
 
-2. http://nvidia.com
+* http://nvidia.com
 
 Check on Nvidia.com which driver you should use and install it from there.
 
