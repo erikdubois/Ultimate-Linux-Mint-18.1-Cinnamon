@@ -12,21 +12,20 @@
 ##################################################################################################################
 
 
+rm /tmp/slack-desktop-2.2.1-amd64.deb
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+wget https://downloads.slack-edge.com/linux_releases/slack-desktop-2.2.1-amd64.deb -O /tmp/slack-desktop-2.2.1-amd64.deb
+sudo dpkg -i /tmp/slack-desktop-2.2.1-amd64.deb
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+rm /tmp/slack-desktop-2.2.1-amd64.deb
 
-# 3. Update list of available packages
-sudo apt-get update -y
-
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
-
+echo "fixing hardcoded icon"
+old="Icon=\/usr\/share\/pixmaps\/slack.png"
+new="Icon=slack"
+location="/usr/share/applications/slack.desktop"
+sudo sed -i s/$old/$new/g $location
 
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

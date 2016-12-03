@@ -13,20 +13,17 @@
 
 
 
-rm -rf /tmp/sardi
-wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
-mkdir /tmp/sardi
-tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
-rm /tmp/sardi.tar.gz
+# repo for numix themes
+sudo add-apt-repository ppa:numix/ppa -y
 
-# if there is no hidden folder then make one
-[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-cp -rf /tmp/sardi/* ~/.icons/
-rm -rf /tmp/sardi
+# getting new info of this new repo
+sudo apt-get -y update
 
+# installing
+sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
 
 
 echo "################################################################"
-echo "###################    icons sardi done   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

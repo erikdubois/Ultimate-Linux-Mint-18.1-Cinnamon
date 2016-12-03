@@ -11,22 +11,24 @@
 #
 ##################################################################################################################
 
+# will not install to error....????
 
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+rm /tmp/atom-amd64.deb
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-
-# 3. Update list of available packages
-sudo apt-get update -y
-
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
+wget https://atom.io/download/deb -O /tmp/atom-amd64.deb
+#curl -o /tmp/code_1.5.3-1474533365_amd64.deb https://code.visualstudio.com/docs/?dv=linux64_deb
+sudo dpkg -i /tmp/atom-amd64.deb
+#gdebi /tmp/code_1.5.3-1474533365_amd64.deb
 
 
+rm /tmp/atom-amd64.deb
+
+
+##################################################################################################################
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
+
+

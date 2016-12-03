@@ -12,21 +12,20 @@
 ##################################################################################################################
 
 
+# repo for grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+# getting new info of this new repo
+sudo apt-get -y update
 
-# 3. Update list of available packages
-sudo apt-get update -y
+# installing
+sudo apt-get install -y grub-customizer
 
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
 
+############################################################################
 
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

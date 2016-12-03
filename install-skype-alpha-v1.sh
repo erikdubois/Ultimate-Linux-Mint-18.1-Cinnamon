@@ -11,22 +11,18 @@
 #
 ##################################################################################################################
 
+# Downloading and installing latest teamviewer
 
+rm /tmp/skypeforlinux-64-alpha.deb
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+wget https://go.skype.com/skypeforlinux-64-alpha.deb -O /tmp/skypeforlinux-64-alpha.deb
+sudo apt install -y libjpeg62:i386
+sudo dpkg -i /tmp/skypeforlinux-64-alpha.deb
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-
-# 3. Update list of available packages
-sudo apt-get update -y
-
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
+rm /tmp/skypeforlinux-64-alpha.deb
 
 
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

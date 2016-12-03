@@ -12,21 +12,16 @@
 ##################################################################################################################
 
 
+# dependancy
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb -O /tmp/remarkable_1.87_all.deb
+sudo apt install -y python3-bs4 python3-markdown wkhtmltopdf
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo dpkg -i /tmp/remarkable_1.87_all.deb
 
-# 3. Update list of available packages
-sudo apt-get update -y
-
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
-
+rm /tmp/remarkable_1.87_all.deb
 
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

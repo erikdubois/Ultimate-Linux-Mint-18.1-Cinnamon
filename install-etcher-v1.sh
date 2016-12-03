@@ -12,21 +12,17 @@
 ##################################################################################################################
 
 
+rm /tmp/etcher.zip
 
-# 1. Add the Spotify repository signing key to be able to verify downloaded packages
-sudo apt-key -y adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+# if there is no folder then make one
+[ -d /opt/Etcher ] || mkdir -p /opt/Etcher
+wget https://resin-production-downloads.s3.amazonaws.com/etcher/1.0.0-beta.16/Etcher-1.0.0-beta.16-linux-x64.zip -O /tmp/etcher.zip
+sudo unzip -o /tmp/etcher.zip -d /opt/Etcher
 
-# 2. Add the Spotify repository
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-
-# 3. Update list of available packages
-sudo apt-get update -y
-
-# 4. Install Spotify
-sudo apt-get install spotify-client -y
+rm /tmp/etcher.zip
 
 
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"

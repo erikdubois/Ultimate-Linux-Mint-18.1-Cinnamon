@@ -12,15 +12,6 @@
 ##################################################################################################################
 
 
-########################################
-########        C O N K Y      #########
-########################################
-
-
-
-# if there is already a folder in tmp, delete or else do nothing
-[ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
-# download the github in folder /tmp/aureola
 
 echo "################################################################"
 echo "Checking if git is installed"
@@ -40,23 +31,25 @@ echo "Install git for an easy installation"
 		echo "################################################################"
 
 	  	sudo apt-get install git -y
-		  	
+
 	fi
 
+# if there is already a folder in tmp, delete or else do nothing
+[ -d /tmp/mint-y-theme ] && rm -rf "/tmp/mint-y-theme" || echo ""
+# download the github in folder /tmp/mint-y-theme
 
+
+git clone https://github.com/linuxmint/mint-y-theme.git /tmp/mint-y-theme
+
+sudo apt-get install ruby-sass
+cd /tmp/mint-y-theme/src
+/tmp/mint-y-theme/src/build-themes.py
+
+
+sudo cp -r /tmp/mint-y-theme/usr/share/themes/* /usr/share/themes/
+rm -rf /tmp/mint-y-theme
 
 
 echo "################################################################"
-echo "Downloading the files from github to tmp directory"
-
-rm -rf /tmp/aureola
-
-git clone https://github.com/erikdubois/Aureola /tmp/.aureola
-
-cp -rf /tmp/.aureola ~/
-
-rm -rf /tmp/aureola
-
-echo "################################################################"
-echo "###################    Aureola installed  ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
