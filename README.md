@@ -187,19 +187,16 @@ The most recent pictures can be found there.
 https://plus.google.com/u/0/collection/YFP-LB
 
 
-Some Examples!
-
-
 Sardi Flexible has a script. Type a colour code and 3 seconds later all your icons have changed.
 
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
+Some Examples from Linux Mint 18!
+
 ![Screenshots](http://i.imgur.com/T9gN544.jpg)
 
 
-
 This is the original colour of Sardi Flexible with Minty-transparent theme.
-
 
 
 ![Screenshots](http://i.imgur.com/iS6zFFU.jpg)
@@ -211,23 +208,14 @@ Sardi Arc
 
 
 
-2. Super Ultra Flat Numix Remix
+2. Surfn icons
 --------------------------------- 
-
-This icon theme is based on an older one i.e. yltra flat also on github.
-
-This is an exercise in changing the directories from scalable/... to 22x22/...
-
-Super Ultra Flat Numix Remix will be updated not the Yltra Flat icon set.
-
 
 For ease of installation I use the script
 
-	- icons-super-ultra-flat-numix-latest.sh
+	- icons-surfn-vx.sh
 
-Also the older icon set can be installed via
 
-	-icons-yltra-flat-latest.sh
 
 
 
