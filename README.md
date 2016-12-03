@@ -177,17 +177,21 @@ For ease of installation I use the script
 	- icons-sardi-vx.sh
 
 
-
-More documentation on http://erikdubois.be
-
 Follow the collection on google+.
 
 The most recent pictures can be found there.
 
 https://plus.google.com/u/0/collection/YFP-LB
 
+Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
-Sardi Flexible has a script. Type a colour code and 3 seconds later all your icons have changed.
+
+    Sardi Colora has such a colouring script.
+    Sardi Flat Colora has such a colouring script.
+    Sardi Flexible has such a colouring script.
+    Sardi Ghost Flexible has such a colouring script.
+    Sardi Mono Colora has such a colouring script.
+    Sardi Mono Numix Colora has such a colouring script.
 
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
@@ -206,6 +210,7 @@ Sardi Arc
 ![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
 
 
+More documentation on http://erikdubois.be/category/sardi-icons/
 
 
 2. Surfn icons
@@ -215,7 +220,7 @@ For ease of installation I use the script
 
 	- icons-surfn-vx.sh
 
-
+Some Examples from Linux Mint 18!
 
 
 
@@ -226,6 +231,7 @@ For ease of installation I use the script
 ![Screenshots](http://i.imgur.com/EocrQ70.png)
 
 
+More info can be found here : https://github.com/erikdubois/Surfn
 
 
 3. Aureola Conky
@@ -234,6 +240,8 @@ For ease of installation I use the script
 This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
+
+Some Examples from Linux Mint 18!
 
 ![Screenshots](http://i.imgur.com/y92Jrp4.png)
 
@@ -244,61 +252,10 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 ![Screenshots](http://i.imgur.com/VgD9SqN.png)
 
 
+More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-4. Aurora Conky
----------------
-	
-
-Aurora is a collection of conky's I like. 
-
-Download it from http://sourceforge.net/projects/auroraconkytheme/.
-
-Installation is described at 
-
-http://erikdubois.be/category/linux/aurora-conky/
-
-In this downloadfolder you will find an <b>installationscript</b> as well i.e. Auto_LinuxMint_Rebecca_cinnamon_aurora.sh
-
-
-But basically unpack the zip file. Make the hidden folder .conky (if it does not exist yet) and place the folder aurora in there.
-
-Install conky-manager that will make life easy.
-
-	sudo add-apt-repository -y ppa:teejee2008/ppa
-	sudo apt-get update
-	sudo apt-get install conky-manager
-
-Start up conky-manager and choose the conky to your liking.
-
-
-
-You should arrive at something similar depending on theme and icons choices: 
-
-
-![Screenshots](http://i.imgur.com/YAyQOjw.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/Yyfslr1.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/B5cPnMK.jpg)
-
-
-
-Then you take the script apart and you write your own code.
-
-This github script is explained more in depth on my website.
-
-http://erikdubois.be/
-
-
-
-
-
-5. ZSH and Oh-my-sh
+4. ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
 
@@ -307,7 +264,7 @@ Everytime a surprise. Because of the 'random'. Read on.
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
-./install-zsh-latest.sh
+./install-zsh-vx.sh
 
 Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
 
@@ -323,113 +280,30 @@ Each time you start an other terminal you will get a different theme. It will su
 
 
 
-6. Plank
+5. Plank
 ------------------
-Start plank from the menu. <b>CTRL + Right-click</b> on the plank and choose preferences
+Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
 and put in on top. I choose a transparent theme.
-
-But there are more themes out there if you want.
-
-If you want to autostart this everytime.
-Type in the menu " startup". Start 'startup applications'.
-
-Add application and choose plank or do it the old way and point to /usr/bin/plank.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
-A tutorial has been written here : 
 
-http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
-
+Read more on plank e.ge. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
 
-7. Folder nemo-scripts
----------------------------
+6. Themes
+------------------
 
-Check out in Nemo (filemanager or explorer in windows)
-
-	Edit/Plugins
-
-There you can post actions and plugins in the hidden folders.
-
-Move the content of the folder config_apps/nemo-scripts-plugins to the hidden folder 
-
-	~/.local/share/nemo/scripts
-
-and change to your liking. These are quick fixes and one backup script to a Backup folder.
-
-Or just follow the youtube movie to get more details about 3 scripts I have kept over the years.
-
-![Screenshots](http://i.imgur.com/ody9WJO.jpg)
-
-
-[![How to add scripts to nemo](http://i.imgur.com/8lFcYuP.jpg)](https://www.youtube.com/watch?v=JCxxs7IzUbs "How to add scripts to nemo - Click to Watch!")
-
-
-# Themes
-
-In the theme folder you can find also some themes. Just unpack them and copy them into the hidden folder
+When you run the scripts, you will have many many themes in this folder
 
 	.themes
 
-Then select them with the themes manager.
+Select them with the themes manager.
 
-# Mint-Y-Dark-Arc
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
-Green accents of Mint-Y-Dark have been replaced with a blue accent.
-
-
-![Screenshots](http://i.imgur.com/kTN6vmp.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/LWP9Zuz.jpg)
-
-
-This is an exercise how to change the green accents to blue accents
-
-	Green : #8fa876 or #8FA876
-	Blue  : #6ba4e7 or #6BA4E7
-
-Remember linux is capital sensitive.
-
-You can get the Mint-y-dark on github. 
-
-https://github.com/linuxmint/mint-y-theme
-
-I used the script that is in the folder source but first changed the master svg's to have a blue colour.
-
-To do so quickly I used Sublime Text to open the master svg and replaced the codes. Even then I had to go inside the svg to change some of them manually. Some do not have this exact colour but a derivative.
-
-Installed the following packages to be able to run the scripts.
-
-	- sudo apt install ruby-sass
-	- sudo apt install optipng
-
-Search for all the instances of this green (#8fa876) and changed it to blue (#6ba4e7). Not in the svg's this time but in everything else like e.g. css or rc.
-The best tool for the job is catfish. 
-
-	- sudo apt install catfish
-
-Catfish can also search INSIDE the files. So the actual content of the file.
-
-![Screenshots](http://i.imgur.com/fhAeJd6.png)
-
-Change the name of the theme and try it out.
-
-If you just want to explore the css codes, I can recommend you brackets as it will show you the colour when you hover over a code. Sublime-text will not do this.
-There is a script to easily install brackets as it needs a dependancy on Linux Mint 18.
-
-
-# Minty-transparent
-
-Based on Minty-transparent I dived into the code to see how themes were made and changed some minor accents.
-
-![Screenshots](http://i.imgur.com/NWfRtQD.jpg)
-
-![Screenshots](http://i.imgur.com/GRFUeE7.jpg)
-
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
 # F  A  Q
