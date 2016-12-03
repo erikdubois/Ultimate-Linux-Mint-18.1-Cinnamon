@@ -1,13 +1,9 @@
-# Ultimate Linux Mint 18 Cinnamon
-
+# Ultimate Linux Mint 18.1 Serena Cinnamon
 Let us first take a screenshot of the initial look of Linux Mint 18 Cinnamon
 
-![Screenshots](http://i.imgur.com/RFfsxm6.jpg)
+![Screenshots](http://i.imgur.com/Rt4ATgr.png)
 
-Update your system. 
-
-![Screenshots](http://i.imgur.com/LcMjMBG.png)
-
+Update your system. Choose if you like to download from local servers or not.
 
 Ofcourse you can change the theme. I like the mint-y-dark theme which I will use in the later screenshots.
 
