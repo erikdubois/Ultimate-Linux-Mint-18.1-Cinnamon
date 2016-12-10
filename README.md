@@ -32,7 +32,7 @@ https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
 
 About 100+ short movies to completely change your desktop experience for linux.
 They are made on Linux Mint 18 and still apply on 18.1.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
 Customisation scritps : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
 
