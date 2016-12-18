@@ -33,6 +33,20 @@ Follow these steps to check if a dark variant of your theme exist. Best to logof
 
 ![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
 
+This is an example of Sardi icons and dark theme on.
+
+When you run the scripts, you will have many themes in this folder
+
+	.themes
+
+Select them with the themes manager.
+
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
+
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
+
+
+![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
 
 #Kernel, cinnamon and nvidia
 
@@ -136,21 +150,7 @@ There are other scripts for applications I sometimes need but will not be instal
 
 
 
-##Themes
 
-
-When you run the scripts, you will have many many themes in this folder
-
-	.themes
-
-Select them with the themes manager.
-
-Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
-
-Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
-
-
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
 
 
 
