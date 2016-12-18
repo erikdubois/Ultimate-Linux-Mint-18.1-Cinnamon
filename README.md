@@ -137,11 +137,20 @@ Follow these steps to check if a dark variant of your theme exist. Best to logof
 
 This is an example of Sardi icons and dark theme on.
 
-When you run the scripts, you will have many themes in this folder
 
-	.themes
+## Download the Arc themes
 
-Select them with the themes manager.
+Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from the arc them to any colour we like.
+
+Check first at https://github.com/erikdubois/Arc-Theme-Colora-Collection if your colour has been created already.
+
+We can install all the created themes with this script
+
+	theme-arc-colora-collection-3.2-vx.sh
+
+The version of cinnamon is important to have a nice theme or not. 
+
+	cinnamon --version
 
 
 **Arc-Dark-Orange**
@@ -149,6 +158,15 @@ Select them with the themes manager.
 ![Screenshots](http://i.imgur.com/mNenIjf.jpg)
 
 Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
+
+## Download the MInt-Y themes
+
+When you run the scripts, you will have many themes in this folder
+
+	.themes
+
+Select them with the themes manager
+
 
 **Mint-Y-Arc-Dark**
 
