@@ -299,6 +299,9 @@ I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spi
 
 ![Screenshots](http://i.imgur.com/kehYX70.jpg)
 
+Remember to type this in the terminal
+
+	sudo chsh yourname -s /bin/zsh
 
 
 # Youtube Resources 
