@@ -270,25 +270,13 @@ More information can be found here : http://erikdubois.be/category/linux/aureola
 
 4. ZSH and Oh-my-sh
 -----------------------
-I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
+I like bash but I prefer zsh with lots of different themes from Oh-my-zsh to spice things up. So let us install that in the script.
 
-ZOOM IN to see that the colours and the look change in the terminal.
-Everytime a surprise. Because of the 'random'. Read on. 
+Everytime a surprise. The script changes the theme to 'random'.
 
 ![Screenshots](http://i.imgur.com/kehYX70.jpg)
 
 ./install-zsh-vx.sh
-
-Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
-
-<b>Latest script will take care of that automatically.</b>
-
-[![Install zsh](http://i.imgur.com/vcTLjCT.jpg)](https://www.youtube.com/watch?v=5UOkIRhq7h8 "Install zsh - Click to Watch!")
-
-Each time you start an other terminal you will get a different theme. It will surprise you every time.
-
-[![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
-
 
 
 
@@ -299,6 +287,18 @@ Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and 
 and put in on top. I choose a transparent theme.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
+
+If you want to install 100+ plank themes, you need to run this script : 
+
+	plank-themes-vx.sh
+
+Surfn icons and all plank themes
+
+![Screenshots](http://i.imgur.com/CRfb4Qo.gif)
+
+Sardi icons and all plank themes
+
+![Screenshots](http://i.imgur.com/dnmq1g0.gif)
 
 
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
@@ -344,6 +344,9 @@ Then you can execute it by typing
 
 	./typeyourfilename
 
+Or you can follow these steps
+
+![Screenshots](http://i.imgur.com/vXsOaFL.gif)
 
 
 ------------------------------------
