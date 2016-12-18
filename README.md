@@ -254,15 +254,14 @@ More info can be found here : https://github.com/erikdubois/Surfn
 
 This is an exercise in writing conky configurations in lua syntax.
 
-Some Examples from Linux Mint 18!
 
-![Screenshots](http://i.imgur.com/y92Jrp4.png)
-
-
-![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
+![Screenshots](http://i.imgur.com/f1N9ZbD.jpg)
 
 
-![Screenshots](http://i.imgur.com/VgD9SqN.png)
+![Screenshots](http://i.imgur.com/f2OZ2wd.jpg)
+
+
+![Screenshots](http://i.imgur.com/pe5FnVl.jpg)
 
 
 More information can be found here : http://erikdubois.be/category/linux/aureola/
