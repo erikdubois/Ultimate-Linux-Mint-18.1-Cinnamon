@@ -240,15 +240,11 @@ For ease of installation I use the script
 
 	- icons-surfn-vx.sh
 
-Some Examples from Linux Mint 18!
+
+![Screenshots](http://i.imgur.com/Yq1jUDY.jpg)
 
 
-
-![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/EocrQ70.png)
+![Screenshots](http://i.imgur.com/JpmraYv.jpg)
 
 
 More info can be found here : https://github.com/erikdubois/Surfn
