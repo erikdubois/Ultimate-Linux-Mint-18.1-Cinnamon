@@ -162,7 +162,7 @@ Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/them
 
 
 
-## Download the MInt-Y themes
+## Download the Mint-Y themes
 
 Using the scripts at https://github.com/erikdubois/Mint-Y-Colora-Theme we can change the standard green colour from Mint-Y to any colour we like.
 
