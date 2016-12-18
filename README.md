@@ -143,9 +143,6 @@ When you run the scripts, you will have many themes in this folder
 
 Select them with the themes manager.
 
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
-
-These are icons coming from Sardi-Extra and Sardi.
 
 **Arc-Dark-Orange**
 
