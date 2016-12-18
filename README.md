@@ -171,6 +171,19 @@ Select them with the themes manager
 
 **Mint-Y-Arc-Dark**
 
+Using the scripts at https://github.com/erikdubois/Mint-Y-Colora-Theme we can change the standard green colour from Mint-Y to any colour we like.
+
+Check first at https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection if your colour has been created already.
+
+We can install all the created themes with this script
+
+	theme-mint-y-colora-collection-3.2-vx.sh
+
+The version of cinnamon is important to have a nice theme or not. 
+Linux Mint 18.1 > cinnamon version 3.2 
+
+	cinnamon --version
+
 ![Screenshots](http://i.imgur.com/f5116nb.jpg)
 
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
