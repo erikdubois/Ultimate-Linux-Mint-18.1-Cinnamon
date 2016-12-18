@@ -50,6 +50,7 @@ Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/t
 
 These are icons coming from Sardi-Extra and Sardi.
 
+
 #Kernel, cinnamon and nvidia
 
 First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
