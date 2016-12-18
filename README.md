@@ -123,7 +123,7 @@ The best of them
 There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
-##Change the theme
+##Change the theme to Mint-Y-Dark
 
 Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
 
