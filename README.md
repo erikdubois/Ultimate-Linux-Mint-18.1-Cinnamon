@@ -19,38 +19,6 @@ Or you can use the terminal and the git command
 Choose if you like to download from local servers or not.
 
 
-##Change the theme
-
-Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
-
-    sudo apt install screenfetch
-
-
-![Screenshots](http://i.imgur.com/YO66kdK.png)
-
-Sometimes you can change the present theme to its dark equivalent.
-Follow these steps to check if a dark variant of your theme exist. Best to logoff or reboot to be sure.
-
-![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
-
-This is an example of Sardi icons and dark theme on.
-
-When you run the scripts, you will have many themes in this folder
-
-	.themes
-
-Select them with the themes manager.
-
-Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
-
-Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
-
-
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
-
-These are icons coming from Sardi-Extra and Sardi.
-
-
 #Kernel, cinnamon and nvidia
 
 First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
@@ -122,7 +90,6 @@ Check on Nvidia.com which driver you should use and install it from there.
 Wait for the installation and reboot.
 
 
-
 ##Software installation
 
 We start the installation scripts of all the needed software via the terminal. 
@@ -152,15 +119,42 @@ The best of them
 There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
+##Change the theme
+
+Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
+
+    sudo apt install screenfetch
 
 
+![Screenshots](http://i.imgur.com/YO66kdK.png)
+
+Sometimes you can change the present theme to its dark equivalent.
+Follow these steps to check if a dark variant of your theme exist. Best to logoff or reboot to be sure.
+
+![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
+
+This is an example of Sardi icons and dark theme on.
+
+When you run the scripts, you will have many themes in this folder
+
+	.themes
+
+Select them with the themes manager.
+
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
+
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
+![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
 
-1. Sardi Icon Theme
--------------------
+These are icons coming from Sardi-Extra and Sardi.
 
-This icon theme can be downloaded at  sourceforge.
+
+##Download the Sardi icons
+
+
+Sardi icon collection can be downloaded at  sourceforge.
 
 http://sourceforge.net/projects/sardi/
 
@@ -202,18 +196,24 @@ Sardi Arc
 ![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
 
 
+##Download the Sardi-extra icons
+
 There is also a collection of **Sardi Extra** icons at 
 
 https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
+![Screenshots](http://i.imgur.com/6tZ20uY.jpg)
+
+![Screenshots](http://i.imgur.com/egePaGH.jpg)
+
 
 More documentation on http://erikdubois.be/category/sardi-icons/
 
 
-2. Surfn icons
---------------------------------- 
+
+##Download the Surfn icons
 
 For ease of installation I use the script
 
@@ -233,12 +233,9 @@ Some Examples from Linux Mint 18!
 More info can be found here : https://github.com/erikdubois/Surfn
 
 
-3. Aureola Conky
----------------
+##Install the Aureola conky collection
 
 This is an exercise in writing conky configurations in lua syntax.
-
-At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 Some Examples from Linux Mint 18!
 
@@ -254,23 +251,25 @@ Some Examples from Linux Mint 18!
 More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-4. ZSH and Oh-my-sh
------------------------
-I like bash but I prefer zsh with lots of different themes from Oh-my-zsh to spice things up. So let us install that in the script.
+##Change the cursor
 
-Everytime a surprise. The script changes the theme to 'random'.
+I like the breeze snow cursors.
 
-![Screenshots](http://i.imgur.com/kehYX70.jpg)
 
-./install-zsh-vx.sh
+	install-breeze-snow-cursor-theme-v1
 
+![Screenshots](http://i.imgur.com/wHp0I9s.png)
 
 
 
-5. Plank
-------------------
+##Install the plank and download 100+ theme
+
+Plank is installed through this script
+
+	1-install-core-software-vx.sh
+
 Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
-and put in on top. I choose a transparent theme.
+and put in on top. Standard you will have only 3 themes.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
@@ -290,11 +289,19 @@ Sardi icons and all plank themes
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
+##Change from bash to zsh in your terminal
+
+I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via this script.
+
+
+	./install-zsh-vx.sh
+
+
+![Screenshots](http://i.imgur.com/kehYX70.jpg)
 
 
 
-
-# Resources 
+# Youtube Resources 
 
 Content Playlist of 100+ short movies to make your desktop eye-cany.
 Sardi icon collection playing its part.
@@ -305,26 +312,47 @@ About 100+ short movies to completely change your desktop experience for linux.
 They are made on Linux Mint 18 and still apply on 18.1.
 Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
 
-Customisation scripts : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
-
-Sardi icons: https://sourceforge.net/projects/sardi/files/
-
-Surfn icons : https://github.com/erikdubois/Surfn
-
-Aureola conky : https://github.com/erikdubois/Aureola
-
-This was the endresult after executing all the movies.
-
-
-![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
-
-
-
 Check out the movies by clicking here
 
 <a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
 <img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
 </a>
+
+
+# Resources
+
+
+**Sardi icons**
+
+http://erikdubois.be/category/sardi-icons/
+
+https://sourceforge.net/projects/sardi/files/
+
+**Surfn icons**
+
+https://github.com/erikdubois/Surfn
+
+**Aureola conky**
+	
+http://erikdubois.be/category/linux/aureola/
+
+https://github.com/erikdubois/Aureola
+
+**Arc Colora**
+
+http://erikdubois.be/category/themes/arc-based-themes/	
+
+https://github.com/erikdubois/Arc-Theme-Colora
+
+**Plank and 100+ Plank Themes**
+
+http://erikdubois.be/category/linux/plank/
+
+https://github.com/erikdubois/Plank-Themes.
+
+
+![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
+
 
 
 
