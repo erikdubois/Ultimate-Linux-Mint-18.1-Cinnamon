@@ -275,7 +275,7 @@ I like bash but I prefer zsh with lots of different theme to spice things up. So
 ZOOM IN to see that the colours and the look change in the terminal.
 Everytime a surprise. Because of the 'random'. Read on. 
 
-![Screenshots](http://i.imgur.com/NUc55XO.png)
+![Screenshots](http://i.imgur.com/kehYX70.jpg)
 
 ./install-zsh-vx.sh
 
