@@ -160,16 +160,9 @@ Linux Mint 18.1 > cinnamon version 3.2
 
 Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
+
+
 ## Download the MInt-Y themes
-
-When you run the scripts, you will have many themes in this folder
-
-	.themes
-
-Select them with the themes manager
-
-
-**Mint-Y-Arc-Dark**
 
 Using the scripts at https://github.com/erikdubois/Mint-Y-Colora-Theme we can change the standard green colour from Mint-Y to any colour we like.
 
@@ -183,6 +176,8 @@ The version of cinnamon is important to have a nice theme or not.
 Linux Mint 18.1 > cinnamon version 3.2 
 
 	cinnamon --version
+
+**Mint-Y-Arc-Dark**
 
 ![Screenshots](http://i.imgur.com/f5116nb.jpg)
 
