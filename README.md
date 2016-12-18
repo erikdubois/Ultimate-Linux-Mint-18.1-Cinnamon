@@ -91,6 +91,8 @@ Check on Nvidia.com which driver you should use and install it from there.
 
 Wait for the installation and reboot.
 
+More info when running into problems : http://erikdubois.be/install-latest-nvidia-driver-linux-mint-18/
+
 
 ##Software installation
 
