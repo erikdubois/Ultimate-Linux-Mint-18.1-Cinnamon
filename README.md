@@ -147,13 +147,18 @@ Select them with the themes manager.
 
 These are icons coming from Sardi-Extra and Sardi.
 
+**Arc-Dark-Orange**
+
+![Screenshots](http://i.imgur.com/mNenIjf.jpg)
+
 Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
+**Mint-Y-Arc-Dark**
+
+![Screenshots](http://i.imgur.com/f5116nb.jpg)
 
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
-![Screenshots](http://i.imgur.com/f5116nb.jpg)
 
 ##Download the Sardi icons
 
