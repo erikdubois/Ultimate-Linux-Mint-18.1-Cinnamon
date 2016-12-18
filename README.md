@@ -330,7 +330,7 @@ Log off or reboot.
 
 # Youtube Resources 
 
-Content Playlist of 100+ short movies to make your desktop eye-cany.
+Content Playlist of 100+ short movies to make your desktop eye-candy.
 Sardi icon collection playing its part.
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
