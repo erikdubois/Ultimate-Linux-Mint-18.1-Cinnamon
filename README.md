@@ -347,6 +347,12 @@ http://erikdubois.be/category/themes/arc-based-themes/
 
 https://github.com/erikdubois/Arc-Theme-Colora
 
+**Mint-Y Colora**
+
+https://github.com/erikdubois/Mint-Y-Colora-Theme
+
+https://github.com/erikdubois/Mint-Y-Colora-Theme-Collection
+
 **Plank and 100+ Plank Themes**
 
 http://erikdubois.be/category/linux/plank/
