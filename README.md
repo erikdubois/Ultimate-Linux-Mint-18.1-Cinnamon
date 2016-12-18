@@ -326,6 +326,7 @@ Remember to type this in the terminal
 
 	sudo chsh yourname -s /bin/zsh
 
+Log off or reboot.
 
 # Youtube Resources 
 
