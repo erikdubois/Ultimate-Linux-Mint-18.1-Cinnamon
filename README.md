@@ -17,16 +17,25 @@ Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will
 
 ![Screenshots](http://i.imgur.com/YO66kdK.png)
 
+Sometimes you can change the present theme to its dark equivalent.
+Follow these steps to check if a dark variant of your theme exist. Best to logoff or reboot to be sure.
+
+![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
+
 ##Download this github
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
 Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
+Or you can use the terminal and the git command
+
+	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
+
 
 # Extra info on Youtube
 
 Content Playlist of 100+ short movies to make your desktop eye-cany.
-Sardi icon set playing its part therein.
+Sardi icon collection playing its part.
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
 
@@ -116,9 +125,9 @@ If for some reason you want other sources for your drivers then check out these 
 
 Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
-	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
-	# sudo apt-get update
-	# sudo apt-get install nvidia-340 -y (for example)
+	sudo add-apt-repository -y ppa:graphics-drivers/ppa
+	sudo apt-get update
+	sudo apt-get install nvidia-340 -y (for example)
 
 * http://nvidia.com
 
@@ -133,9 +142,9 @@ Wait for the installation and reboot.
 
 We start the installation scripts of all the needed software via the terminal. 
 
-	- ./1-install-core-software-vx.sh
-    - ./2-install-extra-software-vx.sh
-    - ./3-install-themes-icons-cursors-plank.sh
+	1-install-core-software-vx.sh
+	2-install-extra-software-vx.sh
+	3-install-themes-icons-cursors-plank.sh
 
 Do not forget to type "./" in front of the name.
 
