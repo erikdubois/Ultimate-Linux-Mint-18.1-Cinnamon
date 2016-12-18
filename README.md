@@ -204,9 +204,7 @@ https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
-![Screenshots](http://i.imgur.com/6tZ20uY.jpg)
-
-![Screenshots](http://i.imgur.com/egePaGH.jpg)
+![Screenshots](http://i.imgur.com/E16dX0C.jpg)
 
 
 More documentation on http://erikdubois.be/category/sardi-icons/
