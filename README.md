@@ -18,6 +18,8 @@ Or you can use the terminal and the git command
 
 Choose if you like to download from local servers or not.
 
+![Screenshots](http://i.imgur.com/w1HNzxs.jpg)
+
 
 ##Kernel, cinnamon and nvidia
 
