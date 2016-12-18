@@ -231,7 +231,7 @@ These icons can be downloaded but will not be maintained. Nor are they part of t
 
 Easy installation with this script
 
-		icons-sardi-extra-v2
+		icons-sardi-extra-vx.sh
 
 More documentation on http://erikdubois.be/category/sardi-icons/
 
