@@ -140,7 +140,7 @@ This is an example of Sardi icons and dark theme on.
 
 ## Download the Arc themes
 
-Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from the arc them to any colour we like.
+Using the scripts at https://github.com/erikdubois/Arc-Theme-Colora we can change the standard blue colour from Arc to any colour we like.
 
 Check first at https://github.com/erikdubois/Arc-Theme-Colora-Collection if your colour has been created already.
 
@@ -149,6 +149,7 @@ We can install all the created themes with this script
 	theme-arc-colora-collection-3.2-vx.sh
 
 The version of cinnamon is important to have a nice theme or not. 
+Linux Mint 18.1 > cinnamon version 3.2 
 
 	cinnamon --version
 
