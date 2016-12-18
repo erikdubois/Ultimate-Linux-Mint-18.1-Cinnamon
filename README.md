@@ -44,7 +44,7 @@ As described at http://erikdubois.be/ I try to get the latest of everything. Thi
 
 I have written a script to automate my installations. 
 
-<b>KERNEL</b>
+##Kernel
 
 Do not forget to type "./" in front of the name.
 
@@ -57,7 +57,7 @@ Type in the terminal
 ![Screenshots](http://i.imgur.com/3CUtC1X.png)
 
 
-<b>Cinnamon</b>
+##Cinnamon
 
 I never install this on my working computer. You have been warned.
 
@@ -74,7 +74,7 @@ The script will add a resource and upgrade cinnamon.
 
 
 
-<b>Nvidia</b>
+##Nvidia
 
 The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
@@ -106,8 +106,7 @@ Wait for the installation and reboot.
 
 
 
-
-#2 Software installation
+##Software installation
 
 We start the installation scripts of all the needed software via the terminal. 
 
@@ -137,7 +136,22 @@ There are other scripts for applications I sometimes need but will not be instal
 
 
 
-#3 Fun stuff
+##Themes
+
+
+When you run the scripts, you will have many many themes in this folder
+
+	.themes
+
+Select them with the themes manager.
+
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
+
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
+
+
+![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
+
 
 
 1. Sardi Icon Theme
@@ -274,21 +288,6 @@ Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/ca
 
 
 
-6. Themes
-------------------
-
-When you run the scripts, you will have many many themes in this folder
-
-	.themes
-
-Select them with the themes manager.
-
-Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
-
-Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
-
-
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
 
 
 
