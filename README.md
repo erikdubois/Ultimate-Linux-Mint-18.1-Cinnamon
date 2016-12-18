@@ -360,7 +360,6 @@ http://erikdubois.be/category/linux/plank/
 https://github.com/erikdubois/Plank-Themes.
 
 
-![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
 
 
 
