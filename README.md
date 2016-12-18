@@ -19,7 +19,7 @@ Or you can use the terminal and the git command
 Choose if you like to download from local servers or not.
 
 
-#Kernel, cinnamon and nvidia
+##Kernel, cinnamon and nvidia
 
 First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
 
@@ -29,7 +29,7 @@ As described at http://erikdubois.be/ I try to get the latest of everything. Thi
 
 I have written a script to automate my installations. 
 
-##Kernel
+###Kernel
 
 Do not forget to type "./" in front of the name.
 
@@ -42,7 +42,7 @@ Type in the terminal
 ![Screenshots](http://i.imgur.com/3CUtC1X.png)
 
 
-##Cinnamon
+###Cinnamon
 
 I never install this on my working computer. You have been warned.
 
@@ -59,7 +59,7 @@ The script will add a resource and upgrade cinnamon.
 
 
 
-##Nvidia
+###Nvidia
 
 The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
