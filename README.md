@@ -37,8 +37,8 @@ Do not forget to type "./" in front of the name.
 
 Type in the terminal
 
-	
-	- ./update-to-the-last-stable-4.x.x-latest.sh 
+
+	update-to-the-last-stable-4.x.x-latest.sh 
 
 
 ![Screenshots](http://i.imgur.com/3CUtC1X.png)
@@ -54,10 +54,10 @@ There is no script included for this. You will have to do it manually in the ter
 
 The script will add a resource and upgrade cinnamon.
 
-	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
-	# sudo apt-get update 
-	# sudo apt-get install cinnamon -y
-    # sudo apt-get upgrade cinnamon -y
+	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
+	sudo apt-get update 
+	sudo apt-get install cinnamon -y
+    sudo apt-get upgrade cinnamon -y
 
 
 
@@ -72,7 +72,7 @@ You can normally install nvidia drivers without any other source.
 Try typing this in the terminal
 
 
-	# sudo apt install nvidia    and then press on TAB
+	sudo apt install nvidia    and then press on TAB
 
 
 If for some reason you want other sources for your drivers then check out these two.
