@@ -4,9 +4,20 @@ Let us first take a screenshot of the initial look of Linux Mint 18.1 Serena Cin
 
 ![Screenshots](http://i.imgur.com/Rt4ATgr.png)
 
+##Download this github
+
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
+Or you can use the terminal and the git command
+
+	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
+
+
 ##Update your system.
 
 Choose if you like to download from local servers or not.
+
 
 ##Change the theme
 
@@ -22,50 +33,8 @@ Follow these steps to check if a dark variant of your theme exist. Best to logof
 
 ![Screenshots](http://i.imgur.com/JkeB1Ek.gif)
 
-##Download this github
 
-You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
-
-Or you can use the terminal and the git command
-
-	git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
-
-
-# Extra info on Youtube
-
-Content Playlist of 100+ short movies to make your desktop eye-cany.
-Sardi icon collection playing its part.
-
-https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
-
-About 100+ short movies to completely change your desktop experience for linux.
-They are made on Linux Mint 18 and still apply on 18.1.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
-
-Customisation scripts : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
-
-Sardi icons: https://sourceforge.net/projects/sardi/files/
-
-Surfn icons : https://github.com/erikdubois/Surfn
-
-Aureola conky : https://github.com/erikdubois/Aureola
-
-This was the endresult after executing all the movies.
-
-
-![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
-
-
-
-Check out the movies by clicking here
-
-<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
-</a> 
-
-
-#1 Kernel, cinnamon and nvidia
+#Kernel, cinnamon and nvidia
 
 First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
 
@@ -320,6 +289,41 @@ Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/t
 
 
 ![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
+
+
+
+# Resources 
+
+Content Playlist of 100+ short movies to make your desktop eye-cany.
+Sardi icon collection playing its part.
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
+
+About 100+ short movies to completely change your desktop experience for linux.
+They are made on Linux Mint 18 and still apply on 18.1.
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, surfn icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+
+Customisation scripts : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
+
+Sardi icons: https://sourceforge.net/projects/sardi/files/
+
+Surfn icons : https://github.com/erikdubois/Surfn
+
+Aureola conky : https://github.com/erikdubois/Aureola
+
+This was the endresult after executing all the movies.
+
+
+![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
+
+
+
+Check out the movies by clicking here
+
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
+<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
+</a>
+
 
 
 # F  A  Q
