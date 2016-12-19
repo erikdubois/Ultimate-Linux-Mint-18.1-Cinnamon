@@ -14,7 +14,7 @@ file:///home/erik/.config/conky conky
 file:///usr/share/applications applications
 file:///home/erik/.config/variety variety
 file:///home/erik/.config/i3 i3
-file:///etc/bluetooth bluetooth
 file:///home/erik/.config .config
 file:///home/erik/.local .local
+file:///opt opt
 file:///tmp tmp
