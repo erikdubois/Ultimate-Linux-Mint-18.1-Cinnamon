@@ -14,7 +14,7 @@
 
 rm -rf /tmp/gradio
 
-sudo apt-get install build-essential autoconf automake intltool libsoup2.4-dev json-glib-tools  libjson-glib-dev libgstreamer1.0-dev valac libgstreamer-plugins-base1.0-dev gstreamer-tools -y
+sudo apt-get install build-essential autoconf automake intltool libsoup2.4-dev libjson-glib-dev libgstreamer1.0-dev valac libgstreamer-plugins-base1.0-dev  -y
 git clone https://github.com/haecker-felix/gradio /tmp/gradio
 cd /tmp/gradio
 sh autogen.sh --prefix=/usr
