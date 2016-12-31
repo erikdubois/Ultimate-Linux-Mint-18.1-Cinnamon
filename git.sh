@@ -10,7 +10,7 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-
+# Remember : git push origin master --force
 # Below command will backup everything inside the project folder
 git add --all .
 
