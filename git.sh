@@ -11,6 +11,8 @@
 #
 ##################################################################################################################
 # Remember : git push origin master --force
+# Remember : git reset --hard <old-commit-id>
+# git push -f <remote-name> <branch-name>
 # Below command will backup everything inside the project folder
 git add --all .
 
