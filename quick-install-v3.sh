@@ -11,6 +11,9 @@
 #
 ##################################################################################################################
 
+sudo apt -y update
+sudo apt -y upgrade
+
 sh 1-install-core-software-v1.sh
 sh 2-install-extra-software-v1.sh
 sh 3-install-themes-icons-cursors-conky-plank.sh
