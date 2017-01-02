@@ -11,8 +11,8 @@
 #
 ##################################################################################################################
 
-sudo apt -y update
-sudo apt -y upgrade
+sudo apt update -y
+sudo apt upgrade -y
 
 sh 1-install-core-software-v1.sh
 sh 2-install-extra-software-v1.sh
