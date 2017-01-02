@@ -49,13 +49,13 @@ sh plank-themes-v2.sh
 
 # Arc themes
 
-sh theme-arc-colora-v1.sh
+sh theme-arc-colora-collection-3.2-v1.sh
 
 ###############################################################################################
 
 # Mint-Y themes
 
-sh theme-mint-y-colora-v1.sh
+sh theme-mint-y-colora-collection-3.2-v1.sh
 
 ###############################################################################################
 
