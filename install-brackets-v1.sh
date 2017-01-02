@@ -11,6 +11,9 @@
 #
 ##################################################################################################################
 
+# dependencies
+
+sudo apt install -y libgcrypt11 libcurl3
 
 https://github.com/adobe/brackets/releases/download/release-1.8/Brackets.Release.1.8.64-bit.deb
 
