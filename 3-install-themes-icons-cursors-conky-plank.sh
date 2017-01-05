@@ -41,6 +41,12 @@ sh install-gtk-arc-theme-v1.sh
 
 #############################################################################################
 
+# Arc-flatabulous theme
+
+sh install-arc-flatabulous-theme-v1.sh
+
+#############################################################################################
+
 # Plank themes
 
 sh plank-themes-v2.sh
