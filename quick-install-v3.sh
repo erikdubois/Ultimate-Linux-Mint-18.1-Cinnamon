@@ -61,6 +61,7 @@ sh install-canon-mg7750-v1.sh
 #*sh install-stacer-v1.sh
 ##sh install-sublime-text-v1.sh
 #*sh install-svgo-v1.sh
+#*install-systemback-v1.sh
 #*sh install-telegram-v1.sh
 ##sh install-teamviewer-v1.sh
 #*sh install-telegram-v1.sh
