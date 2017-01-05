@@ -65,6 +65,7 @@ sh install-canon-mg7750-v1.sh
 ##sh install-teamviewer-v1.sh
 #*sh install-telegram-v1.sh
 #*sh install-tomahawk-v1.sh
+#*install-ubuntu-cleaner-v1.sh
 #*sh install-ukuu-v1.sh
 ##sh install-variety-v1.sh
 #*sh install-virtual-box-v1.sh
