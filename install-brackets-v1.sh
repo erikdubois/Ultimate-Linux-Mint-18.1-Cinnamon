@@ -22,6 +22,8 @@ wget https://github.com/adobe/brackets/releases/download/release-1.8/Brackets.Re
 sudo dpkg -i libgcrypt11_1.5.0-5+deb7u4_amd64.deb
 sudo dpkg -i Brackets.Release.1.8.64-bit.deb
 
+sudo apt-get -f install -y
+
 
 rm Brackets.Release.1.8.64-bit.deb
 rm libgcrypt11_1.5.0-5+deb7u4_amd64.deb
