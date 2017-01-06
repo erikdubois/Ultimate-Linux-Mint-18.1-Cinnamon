@@ -17,9 +17,9 @@ rm /tmp/gitkraken-amd64.deb
 wget https://www.gitkraken.com/download/linux-deb -O /tmp/gitkraken-amd64.deb
 sudo dpkg -i /tmp/gitkraken-amd64.deb
 
-rm /tmp/gitkraken-amd64.deb
+#rm /tmp/gitkraken-amd64.deb
 
-echo "Install manually until fixed - deb is correct!!"
+echo "Download and install manually until fixed - deb is correct!!"
 
 echo "fixing hardcoded icon"
 old="Icon=app"
