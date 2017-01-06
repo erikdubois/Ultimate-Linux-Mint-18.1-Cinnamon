@@ -14,16 +14,14 @@
 
 
 
-rm /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
+rm /tmp/vivaldi-stable.deb
+
 sudo apt install -y libcurl3
 sudo apt-get -f install
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.4.589.41-1_amd64.deb -O /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
+wget https://downloads.vivaldi.com/stable/vivaldi-stable_1.6.689.46-1_amd64.deb -O /tmp/vivaldi-stable.deb
+sudo dpkg -i /tmp/vivaldi-stable.deb
 
-sudo dpkg -i /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
-
-
-
-rm /tmp/vivaldi-stable_1.4.589.41-1_amd64.deb
+rm /tmp/vivaldi-stable.deb
 
 
 ##################################################################################################################
