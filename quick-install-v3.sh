@@ -38,6 +38,7 @@ sh 3-install-themes-icons-cursors-conky-plank.sh
 ##sh install-brackets-v1.sh
 sh install-canon-mg7750-v1.sh
 #*install-clipgrab-v1.sh
+##sh install-dconf-editor-v1.sh
 #*sh install-discord-canary-v1.sh
 #*sh install-etcher-v1.sh
 #*sh install-franz-v1.sh
@@ -57,6 +58,7 @@ sh install-canon-mg7750-v1.sh
 ##sh install-simplescreenrecorder-v1.sh
 #*sh install-skype-alpha-v1.sh
 #*sh install-slack-v1.sh
+##sh install-screenfetch-v1.sh
 ##sh install-spotify-v2.sh
 #*sh install-stacer-v1.sh
 ##sh install-sublime-text-v1.sh
