@@ -14,7 +14,7 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-sh 1-install-core-software-v1.sh
+sh 1-install-core-software-v2.sh
 sh 2-install-extra-software-v1.sh
 sh 3-install-themes-icons-cursors-conky-plank.sh
 
@@ -73,7 +73,7 @@ sh install-canon-mg7750-v1.sh
 ##sh install-variety-v1.sh
 #*sh install-virtual-box-v1.sh
 #*sh install-visual-studio-code-v1.sh
-##sh install-vivaldi-v1.sh
+##sh install-vivaldi-v2.sh
 #*sh install-wire-v1.sh
 sh install-zsh-v1.sh
 ###sh plank-themes-v2.sh
