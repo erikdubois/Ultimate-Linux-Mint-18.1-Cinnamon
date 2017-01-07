@@ -48,6 +48,7 @@ sh install-canon-mg7750-v1.sh
 ##sh install-gradio-v2.sh
 #*sh install-grub-customizer-v1.sh
 ###sh install-gtk-arc-theme-v1.sh
+#*install-insync-v1.sh
 #*sh install-mint-y-theme-github-v1.sh
 ##sh install-neofetch-v1.sh
 #*sh install-numix-v1.sh
