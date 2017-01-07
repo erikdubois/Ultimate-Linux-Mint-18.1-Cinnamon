@@ -42,5 +42,5 @@ sudo cp /usr/share/themes/Arc-Dark/cinnamon/cinnamon.css /usr/share/themes/Arc-F
 rm -rf /tmp/arc-flatabulous-theme
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "#############   arc flatabulous installed ######################"
 echo "################################################################"
