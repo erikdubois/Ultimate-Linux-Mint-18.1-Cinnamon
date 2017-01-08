@@ -14,7 +14,7 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-sh 1-install-core-software-v1.sh
+sh 1-install-core-software-v2.sh
 sh 2-install-extra-software-v1.sh
 sh 3-install-themes-icons-cursors-conky-plank.sh
 
@@ -37,6 +37,7 @@ sh 3-install-themes-icons-cursors-conky-plank.sh
 #*sh install-boot-repair-v1.sh
 ##sh install-brackets-v1.sh
 sh install-canon-mg7750-v1.sh
+#*sh install-cool-retro-term-v1.sh
 #*install-clipgrab-v1.sh
 ##sh install-dconf-editor-v1.sh
 #*sh install-discord-canary-v1.sh
@@ -98,7 +99,7 @@ echo "################################################################"
 sh hardcodefixer-v1.sh
 
 
-sh update-to-the-last-stable-4.9-0-v1.sh
+sh update-to-the-last-stable-4.9-1-v1.sh
 
 echo
 echo
