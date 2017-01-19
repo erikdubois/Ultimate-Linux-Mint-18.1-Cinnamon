@@ -103,9 +103,9 @@ echo "Let us check if your computer is up-to-date"
 # read the latest article on these matters at http://erikdubois.be
 
 # download files
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.3/linux-headers-4.9.3-040903_4.9.3-040903.201701120631_all.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.3/linux-headers-4.9.3-040903-generic_4.9.3-040903.201701120631_amd64.deb
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.3/linux-image-4.9.3-040903-generic_4.9.3-040903.201701120631_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.4/linux-headers-4.9.4-040904_4.9.4-040904.201701150831_all.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.4/linux-headers-4.9.4-040904-generic_4.9.4-040904.201701150831_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9.4/linux-image-4.9.4-040904-generic_4.9.4-040904.201701150831_amd64.deb
 
 sudo dpkg -i linux*
 
