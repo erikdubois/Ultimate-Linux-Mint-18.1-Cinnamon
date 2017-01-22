@@ -16,7 +16,7 @@ sudo apt upgrade -y
 
 sh 1-install-core-software-v2.sh
 sh 2-install-extra-software-v1.sh
-sh 3-install-themes-icons-cursors-conky-plank-v1.sh
+sh 3-install-themes-icons-cursors-conky-plank-v2.sh
 
 ### use of hashtags
 ### one hashtag application is in sh 1-install-core-software-v1.sh
