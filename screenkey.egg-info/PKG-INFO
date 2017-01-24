@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: screenkey
+Version: 0.9
+Summary: A screencast tool to display keys
+Home-page: http://www.thregr.org/~wavexx/software/screenkey/
+Author: Yuri D'Elia
+Author-email: wavexx@thregr.org
+License: GPLv3+
+Description: 
+              Screenkey is a useful tool for presentations or screencasts.
+              Inspired by ScreenFlick and initially based on the key-mon project code.
+              
+Keywords: screencast keyboard presentation keys
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Multimedia :: Video :: Capture
