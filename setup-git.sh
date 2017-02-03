@@ -35,8 +35,7 @@
 # git reset --hard orgin/master
 
 
-# assuming you have an debian based distro
-#checking if git is installed else install it
+# installing git if not installed for specific distro's
 
 if ! location="$(type -p "git")" || [ -z "git" ]; then
 
@@ -66,8 +65,6 @@ if ! location="$(type -p "git")" || [ -z "git" ]; then
 
 	fi
 
-
-
 fi
 
 
@@ -81,7 +78,7 @@ git config --global user.name "Erik Dubois"
 git config --global user.email "erik.dubois@gmail.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=9600'
+git config --global credential.helper 'cache --timeout=18000'
 git config --global push.default simple
 
 

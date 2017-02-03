@@ -36,7 +36,6 @@
 
 # checking if kernel files are present otherswise github will become too big
 
-
 if [ -f linux* ]; then
 	echo "####################################"
     	echo "Stopping the script!!"
@@ -44,6 +43,7 @@ if [ -f linux* ]; then
     	echo "####################################"
     	exit 0
 fi
+
 
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
