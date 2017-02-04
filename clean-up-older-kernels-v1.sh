@@ -33,6 +33,8 @@
 
 #If you're paranoid (like me), you can make the last part xargs echo sudo apt-get -y purge so that the command to purge the old kernels is printed, then you can check that nothing unexpected is included before you run it.
 
+echo "TAKE CARE! You will be left with only one kernel - the current one!"
+
 
 dpkg --list | grep linux-image | awk '{ print $2 }' | sort -V | sed -n '/'`uname -r`'/q;p' | xargs sudo apt-get -y purge
 
