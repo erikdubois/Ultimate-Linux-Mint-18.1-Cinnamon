@@ -37,5 +37,5 @@
 dpkg --list | grep linux-image | awk '{ print $2 }' | sort -V | sed -n '/'`uname -r`'/q;p' | xargs sudo apt-get -y purge
 
 echo "################################################################"
-echo "############## simplescreenrecorder installed    ###############"
+echo "############## old kernels have been deleted     ###############"
 echo "################################################################"
