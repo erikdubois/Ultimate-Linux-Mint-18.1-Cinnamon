@@ -2,9 +2,9 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/erik/.gtkrc-2.0.mine"
-gtk-theme-name="Arc-Dark-Blue"
+gtk-theme-name="Arc-Dark-Smoke"
 gtk-icon-theme-name="Sardi-Mono-Numix-Colora-Vampire"
-gtk-font-name="Noto Sans 12"
+gtk-font-name="Noto Sans Regular 12"
 gtk-cursor-theme-name="Breeze_Snow"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
