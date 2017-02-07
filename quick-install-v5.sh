@@ -100,7 +100,7 @@ echo "################################################################"
 sh hardcodefixer-v1.sh
 
 
-#sh update-to-the-last-stable-4.9-5-v1.sh
+#sh update-to-the-last-stable-4.9-8-v1.sh
 
 echo
 echo
