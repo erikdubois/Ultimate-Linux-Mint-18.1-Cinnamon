@@ -5,20 +5,18 @@
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-sudo apt-get install dconf-cli -y
 
-dconf load /org/cinnamon/desktop/keybindings/ < all-cinnamon-desktop-keybindings.dconf
+
+
+
 
 echo "################################################################"
-echo "###################    shortcuts loaded   ######################"
+echo "#############      distro specific software    #################"
 echo "################################################################"
-
-sleep 1
 

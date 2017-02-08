@@ -14,10 +14,11 @@
 
 sudo apt-get install dconf-cli -y
 
-dconf dump /org/cinnamon/desktop/keybindings/ > all-cinnamon-desktop-keybindings.dconf
+dconf load /org/cinnamon/desktop/keybindings/ < keyboard-shortcuts-cinnamon.dconf
 
 echo "################################################################"
-echo "###################    shortcuts dumped   ######################"
+echo "###################    shortcuts loaded   ######################"
 echo "################################################################"
 
 sleep 1
+

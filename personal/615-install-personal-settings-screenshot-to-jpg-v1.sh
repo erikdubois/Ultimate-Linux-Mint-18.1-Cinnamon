@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,24 +11,15 @@
 #
 ##################################################################################################################
 
+echo "################################################################"
+echo "#########       Screenshot settings             ################"
+echo "################################################################"
 
+echo "Making sure gnome-screenshot saves in jpg - smaller in kb"
 
-echo "Making sure firefox looks great in dark themes"
-echo "You should run this script after you rebooted and are in i3."
-echo "Firefox must have started once. The directory will not exist otherwise."
-echo "Starting firefox and waiting for 10 seconds."
-
-firefox
-
-
-sleep 10
-
-cp -r settings/firefox/chrome/ ~/.mozilla/firefox/*.default
-
-echo "reboot firefox to see the effect"
+sh settings/gnome-screenshot/set-gnome-screenshot-to-save-as-jpg.sh
 
 
 echo "################################################################"
-echo "#########       firefox  settings installed     ################"
+echo "#########    screenshot settings  installed     ################"
 echo "################################################################"
-
