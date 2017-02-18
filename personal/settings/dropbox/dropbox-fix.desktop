@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Dropbox
+GenericName=File Synchronizer
+Comment=fix-icon - Sync your files across computers and to the web
+Exec=env DBUS_SESSION_BUS_ADDRESS="" dropbox start -i
+Terminal=false
+Type=Application
+Icon=dropbox
+Categories=Network;FileTransfer;
+StartupNotify=false
+Hidden=false
+
