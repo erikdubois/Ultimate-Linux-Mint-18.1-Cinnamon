@@ -19,6 +19,6 @@ cp settings/sublimetext/* ~/.config/sublime-text-3/Packages/User/
 
 
 echo "################################################################"
-echo "#########       keyboard shortcuts set          ################"
+echo "#########       sublime text settings           ################"
 echo "################################################################"
 
