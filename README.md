@@ -44,15 +44,15 @@ Type in the terminal
 ![Screenshots](http://i.imgur.com/3CUtC1X.png)
 
 
-###Cinnamon
+###Cinnamon-nightly or beta version
 
-I never install this on my working computer. You have been warned.
+I never install the beta version on my working computer. You have been warned. Beta's are notoriously not stable.
 
-The very latest cinnamon version can be installed on your system.
+But it can be your choice to check out what software engineers are developing for the next release and install the very latest cinnamon version today.
 
 There is no script included for this. You will have to do it manually in the terminal.
 
-The script will add a resource and upgrade cinnamon.
+These lines will add a resource and upgrade cinnamon. Copy/paste every line one by one in the terminal.
 
 	sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
 	sudo apt-get update 
