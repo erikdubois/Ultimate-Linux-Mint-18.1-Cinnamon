@@ -12,7 +12,7 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geary gimp gpick
+sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 sudo apt-get install -y thunar vlc vnstat   
