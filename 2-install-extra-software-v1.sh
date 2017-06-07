@@ -87,7 +87,7 @@ sh install-variety-v1.sh
 
 # Vivaldi
 
-sh install-vivaldi-v1.sh
+sh install-vivaldi-v2.sh
 
 ###############################################################################################
 
